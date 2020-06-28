@@ -1,3 +1,6 @@
-function getRandomNumber(num = 2){
-	return Math.round(Math.random() * num);
+
+function getRandomLetter(){
+	let n = "abcdefghijklmnopqrstuvwxyz";
+  let x = Math.round(Math.random() * n.length)
+	return n[x];
 }
